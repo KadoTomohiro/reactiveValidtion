@@ -1,0 +1,26 @@
+:host {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  padding: 0.4em;
+  margin-right: 0.4em;
+}
+
+.error-message {
+  font-size: 0.7em;
+  color: red;
+}
+
+.focus {
+  background-color: #d5dfff;
+  border-color: #3672ff;
+}
+
+.error {
+  background-color: #ffd5d5;
+  border-color: #ff3636;
+}
